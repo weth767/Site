@@ -1,0 +1,415 @@
+*{
+	font-family: arial;
+}
+	
+body{
+	margin:0px auto ;
+	padding: 0px auto;
+	background-color: black;
+	
+
+}
+#noticas img{
+	max-width: 100%;
+	background top left repeat-x fixed;
+	background-position: center top;
+	background-size: cover;
+}
+#itens img{
+	max-width: 100%;
+	background top left repeat-x fixed;
+	background-position: center top;
+	background-size: cover;
+}
+#talentos img{
+	max-width: 100%;
+	background top left repeat-x fixed;
+	background-position: center top;
+	background-size: cover;
+
+}
+#invocadores img{
+	max-width: 100%;
+	background top left repeat-x fixed;
+	background-position: center top;
+	background-size: cover;
+}
+#champs img{
+	max-width: 100%;
+	background top left repeat-x fixed;
+	background-position: center top;
+	background-size: cover;	
+}
+#index img{
+	max-width: 100%;
+	background top left repeat-x fixed;
+	background-position: center top;
+	background-size: cover;
+
+}
+
+nav{
+
+	margin-top: 5%;
+	float:center;
+	text-align: center;
+	font-size: 300%;
+	font-family:"Arial";
+	color: white;
+
+}
+nav a{
+
+	text-decoration:none;
+	color: blue;
+}
+
+
+footer{
+
+	text-align: center;
+	background-color: #000000;
+	color:white;
+	clear: both;
+	width: 100%;
+	
+}
+	
+nav a:hover{
+	color:white;
+}
+
+#index article{
+	background-attachment:fixed;
+}
+figure{
+
+	
+	float: left;
+	margin-left: 2%;
+	border: 3px solid blue;
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-right: -1%;
+	top:150px;
+	margin-left: 5%;
+	
+	
+}
+
+figure:hover{
+
+	border-color: white;
+}	
+
+
+
+.button {
+  margin: 2% 0;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  background-color:black;
+  border: 3px solid blue;
+  border-radius: 30px;
+  text-decoration: none;
+  color: blue;
+  line-height: 55px;  
+  overflow: hidden;
+  opacity: .99;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  -webkit-transition: all 1s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+          transition: all 1s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+
+  
+}
+
+.button:hover {background-color:#080808;border-color:white;color:white;
+ -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: all 1s cubic-bezier(0.40, -0.90, 0.30, 1.59);
+          transition: all 1s cubic-bezier(0.40, -0.90, 0.30, 1.59);
+          box-shadow: 0 0 30px 0 blue;
+		  width:250px;
+		 
+}
+
+.button:active {
+  background-color:#080808 ;
+  transform: translateY(5px);
+  color: white;
+
+
+
+}
+
+blockquote{
+	background-color:#000066;
+	clear: both;
+}
+#index article{
+	color: white;
+	position: absolute;
+	text-align: justify;
+	font-size:125%;
+}
+#index article h1{
+	text-align: center;
+}
+#secao{
+	float: left;
+	position: absolute;
+	z-index: auto;
+	border: 6px solid white;
+	margin-left: 15%;
+	width: 70%;
+	background-color: white;
+	color: black;
+
+
+}
+#secao li{
+	color: black;
+	text-align: center;
+	font-size: 115%;
+}
+#secao h1{
+	color: black;
+	text-align: center;
+}
+#secao a:hover{
+	color: blue;
+}
+#secao a{
+	color: black;
+	text-decoration: none;
+}
+#rodape{
+	position: center bottom;
+	margin-top: 20%;
+}
+#paginainicial{
+	position: absolute;
+	margin: 2%;
+	padding: 6%;
+}
+#aatroxpag img{
+
+	width: 15%;
+	margin: 5px 8%;
+	border: 3px solid white;
+	position: absolute;
+	bottom: 18%;
+}
+
+#aatroxpag{
+color: white;
+
+
+
+}
+#aatroxpag h1{
+	
+	
+	position: absolute;
+	margin-left: 5%;
+	margin-bottom: 4%;
+	margin-top: -4%;
+} 
+#aatroxpag p{
+	margin-top: 12%;
+	text-align: justify;
+	margin: 0 15%;
+	position: left;
+
+}
+#aatroxstatus p{
+	
+	margin-left: 35%;
+	bottom:50px;
+	position: center bottom;
+
+	
+}
+#aatroxstatus{
+
+	margin-top: 4%;
+	margin-bottom: -16%;
+	border: 3px solid white;
+
+}
+
+#aatroxtexto{
+	margin-top: 190%;
+	font-size: 120%;
+	position: absolute;
+	margin-bottom: 5%;
+}
+#aatroxtexto h2{
+	text-align: center;
+}
+#aatroxpag iframe{
+	position: absolute;
+	margin-left: 65%;
+	top: 15%;
+	bottom: -30%;
+	margin-top: 15%;
+	border: 4px solid white;
+	
+
+
+}
+#aatroxhabilidades{
+	position: absolute;
+	margin-top: 20%;
+	margin-right: 55%;
+	margin-left: 10%;
+
+}
+#aatroxhabilidades h3{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+#aatroxhabilidades video{
+	position: absolute;
+	margin-left: 130%;
+	margin-bottom: 90%;
+	border:3px solid white;
+	margin-top: 5px;
+}
+#aatroxpassiva{
+
+	
+	margin-bottom: 15%;
+}
+#aatroxpassiva video{
+	margin-bottom: 30%;
+}
+#aatroxq{
+	
+	margin-bottom: 15%;
+}
+#aatroxw{
+	
+	margin-bottom: 15%;
+}
+#aatroxe{
+
+	margin-bottom: 15%;
+}
+#aatroxult{
+	margin-bottom: 15%;
+	padding-bottom: 5%;
+}
+#aatroxpassiva img{
+	position: absolute;
+	margin-bottom: 320%;
+	left: -18%;
+}
+#aatroxult video{
+	margin-top: 15%;
+}
+#aatroxq video{
+	margin-top: 5%;
+}
+#aatroxw video{
+	margin-top: 15%;
+}
+#aatroxe video{
+	margin-top: 5%;
+}
+
+#aatroxq img{
+	position:absolute;
+	margin-bottom: 253%;
+	left: -18%; 
+}
+#aatroxw img{
+	position: absolute;
+	margin-bottom: 175%;
+	left: -18%;
+}
+
+#aatroxe img{
+	position: absolute;
+	margin-bottom: 72%;
+	left: -18%;
+}
+#aatroxult img{
+	position: absolute;
+	margin-bottom: -3%;
+	left: -18%;
+}
+
+#aatroxskins img{
+	
+	margin-top: 5%;
+	margin-left: 3.5%;
+	width: 20%;
+}
+#aatroxskins blockquote{
+	margin-top: 170%;
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-size: 125%;
+}
+#aatroxrodape{
+	position:absolute; 
+	top: 560%;
+}
+#ahripassiva img{
+	position: absolute;
+	margin-bottom: 297%;
+	left: -18%;
+}
+#ahripassiva video{
+	margin-top: -1%;
+}
+#ahriq img{
+	position:absolute;
+	margin-bottom: 238%;
+	left: -18%; 
+}
+#ahriq video{
+	margin-top: 15%;
+}
+#ahriw img{
+	position: absolute;
+	margin-bottom: 152%;
+	left: -18%;
+}
+#ahriw video{
+	margin-top: 13%;
+}
+#ahrie img{
+	position: absolute;
+	margin-bottom: 70%;
+	left: -18%;
+}
+#ahrie video{
+	margin-top: 8%;
+}
+#ahriult img{
+	position: absolute;
+	margin-bottom: -5%;
+	left: -18%;
+}
+#ahritexto{
+	margin-top: 210%;
+	font-size: 120%;
+	position: absolute;
+	margin-bottom: 5%;
+}
+#ahritexto h2{
+	text-align: center;
+}
+#ahrirodape{
+	position:absolute; 
+	top: 585%;
+}
